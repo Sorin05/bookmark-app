@@ -69,9 +69,29 @@ a:active {
   text-decoration: underline;
 }
 
+.fa-times {
+  float: right;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.name {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
 .name img {
   height: 20px;
   width: 20px;
   margin-right: 5px;
   vertical-align: sub;
 }
+
+/* media query: Large Smartphone(Vertical) */
+@media screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+    
+  }
+}
+  
